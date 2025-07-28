@@ -17,12 +17,15 @@ export const PATHS = {
     // backend 
     BACKEND: path.join(SRC_DIR, 'main'),
     
-    // app files
+    // app files and folders
     GAME_CONFIG: path.join(BACKEND, 'config', 'gameDirectories.json'),
+    VAULT: {
+        ROOT: path.join(PROJECT_ROOT, 'vault'),
+        getGamePath: (gameName) => path.join(PROJECT_ROOT, 'vault', gameName)
+    },
 
     // frontend
     FRONTEND: path.join(SRC_DIR, 'frontend'),
     INDEX: path.join(SRC_DIR, 'frontend', 'index.html'),
-
     PRELOAD_SCRIPT: path.join(FRONTEND, 'boot', 'preload.js')
 }
