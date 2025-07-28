@@ -1,0 +1,5 @@
+
+# Optional (later): Tool to build executable
+npm install --save-dev electron-packager
+# or for more advanced builds
+npm install --save-dev electron-builder

@@ -1,0 +1,21 @@
+{
+  "name": "save-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main/app.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "set NODE_ENV=development&& nodemon --exec electron . --watch backend --watch frontend --watch main.js",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "electron": "^37.2.4",
+    "electron-reloader": "^1.2.3",
+    "nodemon": "^3.1.0"
+  }
+}

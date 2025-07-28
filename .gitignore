@@ -1,0 +1,5 @@
+package-lock.json
+src/main/config/gameDirectories.json
+.env
+node_modules
+vault
